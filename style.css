@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 116px;
+    background-image: url(https://i0.wp.com/blog.kalvium.com/wp-content/uploads/2022/12/Kalvium-Orientation-day.jpg);
+    background-repeat: no-repeat;
+    background-size: 1525px 800px;
+    text-align: center;
+}
+
+img {
+    width: 275px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.myhobby {
+    flex-direction: column;
+}
+
+.my-hobby-container {
+    width: 100vw;
+}
+
+
+/* Styling footer section */
+footer {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 273px;
+}
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+.contact {
+    width: 1155px;
+    height: 146px;
+
+  }
+
+  /* extra */
+.profilepic1 {
+    height: 500px;
+    width: 500px;
+}
+
+.letswhite {
+    color: white;
+    text-decoration: none;
+}
+
+.training121 {
+    margin-top: 45px;
+}
+
+.gitlink {
+    color: black;
+}
+
+.heightincrease {
+    height: 347px;
+}
+
+
+.padding-style {
+    padding-top: 900px;
+}
+
+.hobby-padding {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #1111bdb2;
+}
+
+.education-padding {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    color: #1111bdb2;
+}
+
+.padding-top-edu {
+    padding-bottom: 70px;
+}
+
+.width-name {
+    width: 720px;
+}
+
+/* underline */
+a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
+
+.space-arounnd {
+    justify-content: space-around;
+}
+
+.width-img {
+    width: 500px !important;
+}
+
+.about-color {
+    color: blue;
+}
+
+.developed-by-color {
+    color: black !important;
+}
